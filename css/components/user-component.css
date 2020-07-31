@@ -45,3 +45,22 @@
     margin-bottom: 10px;
     display:block;
 }
+.phone-number {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.phone-number span {
+    display:block;
+    width: 14px;
+    height:14px;
+    border-radius: 50%;
+    border: 1.5px solid tomato;
+    text-align: center;
+    color: tomato;
+    font-weight: 700;
+    margin: 5px 0 0 5px;
+    align-items: center;
+    
+}
