@@ -5,8 +5,16 @@
     border-radius:3px;
     display: flex;
     justify-content: center;
+   
+}
+.nav__notificationl__ellipsis {
     position:absolute;
     left: 32px;
     bottom: 27px;
     padding-bottom: 1px;
+}
+.account_ellipsis {
+    position:fixed;
+    right: 31px;
+    top: 207px;
 }
