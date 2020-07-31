@@ -1,0 +1,12 @@
+.ellipsis-badge {
+    background-color:tomato;
+    width:6px;
+    height:6px;
+    border-radius:3px;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    left: 32px;
+    bottom: 27px;
+    padding-bottom: 1px;
+}
