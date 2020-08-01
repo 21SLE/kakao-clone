@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - Kokoa Clone</title>
+</head>
+<body id="chat-screen">
+    <!--Status Bar-->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!--To Do: Wifi Icon -->
+            <i class="fas fa-wifi"></i>
+        </div> 
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <!-- Battery Icon-->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!--<svg fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                <path d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+            </svg>-->
+            <!-- Lightning Icon-->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Alternative Screen Header-->
+    <div class="header alt-header">
+        <div class="alt-header__column">
+            <a href="chats.html">
+                <i class="fas fa-chevron-left fa-lg"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">다혜 ♥</h1>
+        </div>
+        <div class="alt-header__column">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-bars fa-lg"></i></span>
+        </div>
+    </div>
+
+    <!-- Main Screen -->
+    <main class="main-screen main-chat">
+        <div class="chat__timestamp">
+            Tuesday, June 30, 2020
+        </div>
+
+        <div class="message-row">
+            <img src="images/칸쵸 배뚱.jpg"/>
+            <div class="message-row__content">
+                <span class="message__author">다혜 ♥</span>
+                <div class="message__info">
+                    <span class="message__bubble">한슬아 뭐해?</span>
+                    <span class="message__time">21:27</span>
+                </div>
+            </div>
+        </div>
+        <div class="message-row message-row--own">
+            <div class="message-row__content">
+                <div class="message__info">
+                    <span class="message__bubble">칸쵸랑 산책중이야~^0^</span>
+                    <span class="message__time">21:30</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <form class="reply">
+        <div class="reply__column">
+            <i class="far fa-plus-square"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message..."/>
+            <i class="far fa-smile fa-lg"></i>
+            <button>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+        
+    </form>
+    
+
+
+    <script 
+        src="https://kit.fontawesome.com/64f35c3b01.js" 
+        crossorigin="anonymous">
+    </script>
+
+</body>
+</html>
