@@ -1,6 +1,16 @@
 .user-component {
     justify-content: space-between;
 }
+.user-component__chats{
+    margin-bottom: 10px;
+}
+.user-component__chats .user-component__title{
+    font-size: 21px;
+}
+.user-component__chats .user-component__subtitle {
+    margin-top: 7px;
+    font-size: 15px;
+}
 .user-component,
 .user-component__column:first-child {
     display:flex;
@@ -33,7 +43,9 @@
 }
 .user-component__title--not-bold {
     font-weight: 400;
+    font-size: 18px;
 }
+
 
 .user-component__column:last-child {
     color: rgba(0,0,0,0.5);
